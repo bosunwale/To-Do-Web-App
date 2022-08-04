@@ -1,8 +1,25 @@
-﻿@{
+﻿@model Todo
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<form method="post">
+    <div>
+        <label asp-for="Title"></label>
+        <input asp-for="Title" />
+        <span asp-validation-for="Title" />
+    </div>
+    <div>
+        <label asp-for="CreatedDate"></label>
+        <input asp-for="CreatedDate" />
+        <span asp-validation-for="CreatedDate" />
+    </div>
+    <div>
+        <input type="submit" value="Create" />
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
