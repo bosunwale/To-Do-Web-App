@@ -1081,11 +1081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ToDoAssignment\\ToDoAssignment\\ToDoAssignment.csproj",
+      "projectUniqueName": "E:\\ToDoAssignment\\To-Do-Web-App\\ToDoAssignment\\ToDoAssignment.csproj",
       "projectName": "ToDoAssignment",
-      "projectPath": "E:\\ToDoAssignment\\ToDoAssignment\\ToDoAssignment.csproj",
+      "projectPath": "E:\\ToDoAssignment\\To-Do-Web-App\\ToDoAssignment\\ToDoAssignment.csproj",
       "packagesPath": "C:\\Users\\John_\\.nuget\\packages\\",
-      "outputPath": "E:\\ToDoAssignment\\ToDoAssignment\\obj\\",
+      "outputPath": "E:\\ToDoAssignment\\To-Do-Web-App\\ToDoAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John_\\AppData\\Roaming\\NuGet\\NuGet.Config",
