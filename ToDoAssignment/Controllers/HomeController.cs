@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using ToDoAssignment.Data;
 using ToDoAssignment.Models;
 
 namespace ToDoAssignment.Controllers
@@ -11,8 +12,10 @@ namespace ToDoAssignment.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
